@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="udacious_orange">#F08C35</color>
+    <color name="udacious_red">#cd0e3e</color>
+    <color name="udacious_light_blue">#dfeaf1</color>
+    <color name="udacious_dark_blue">#083d5a</color>
+
+</resources>

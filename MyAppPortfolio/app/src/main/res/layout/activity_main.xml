@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/udacious_light_blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/title_label"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/udacious_dark_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_media_streamer"
+                style="@style/LaunchAppButton"
+                android:text="@string/button1_label" />
+
+            <Button
+                android:id="@+id/button_super_duo1"
+                style="@style/LaunchAppButton"
+                android:text="@string/button2_label" />
+
+            <Button
+                android:id="@+id/button_super_duo2"
+                style="@style/LaunchAppButton"
+                android:text="@string/button3_label" />
+
+            <Button
+                android:id="@+id/button_ant_terminator"
+                style="@style/LaunchAppButton"
+                android:text="@string/button4_label" />
+
+            <Button
+                android:id="@+id/button_materialize"
+                style="@style/LaunchAppButton"
+                android:text="@string/button5_label" />
+
+            <Button
+                android:id="@+id/button_capstone"
+                style="@style/LaunchCapstoneAppButton"
+                android:text="@string/button6_label" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+    </LinearLayout>
+
+</RelativeLayout>
